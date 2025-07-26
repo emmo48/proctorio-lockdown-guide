@@ -335,55 +335,58 @@
 
         /* How-to Section */
         .how-to {
-            background: #1d1d1f;
-            color: white;
-            border-radius: 24px;
-            padding: 60px 48px;
+            background: #f5f5f7;
+            color: #1d1d1f;
+            border-radius: 20px;
+            padding: 40px 32px;
             text-align: center;
         }
 
         .how-to h3 {
-            font-size: 36px;
+            font-size: 28px;
             font-weight: 700;
-            margin-bottom: 32px;
+            margin-bottom: 24px;
         }
 
         .steps {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 32px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
             text-align: left;
         }
 
         .step {
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            padding: 32px 24px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 12px;
+            padding: 20px 16px;
             backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
         }
 
         .step-number {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             background: #667eea;
             color: white;
             border-radius: 50%;
             font-weight: 600;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
+            font-size: 14px;
         }
 
         .step h4 {
-            font-size: 19px;
+            font-size: 16px;
             font-weight: 600;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .step p {
-            color: #a1a1a6;
-            line-height: 1.5;
+            color: #515154;
+            line-height: 1.4;
+            font-size: 14px;
         }
 
         /* Footer */
@@ -451,7 +454,7 @@
 
             .steps {
                 grid-template-columns: 1fr;
-                gap: 24px;
+                gap: 16px;
             }
         }
 
@@ -692,13 +695,13 @@
                     </div>
                     <div class="step">
                         <div class="step-number">3</div>
-                        <h4>Enable Options</h4>
-                        <p>Turn ON the recommended Lock Down Options for your chosen scenario. Leave all other options turned OFF unless otherwise needed.</p>
+                        <h4>Configure Recording</h4>
+                        <p>For Recording Options, turn on Record Video, Record Audio, Record Screen, and Record Web Traffic.</p>
                     </div>
                     <div class="step">
                         <div class="step-number">4</div>
-                        <h4>Configure Recording</h4>
-                        <p>For Recording Options, turn on Record Video, Record Audio, Record Screen, and Record Web Traffic.</p>
+                        <h4>Enable Options</h4>
+                        <p>Turn ON the recommended Lock Down Options for your chosen scenario. Leave all other options turned OFF unless otherwise needed.</p>
                     </div>
                 </div>
             </div>
