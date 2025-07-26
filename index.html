@@ -164,15 +164,15 @@
         /* Quiz Cards */
         .quiz-grid {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 24px; /* Reduced from 40px */
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
             margin-bottom: 80px;
         }
 
         .quiz-card {
             background: #fbfbfd;
             border-radius: 24px;
-            padding: 48px 20px;
+            padding: 48px 32px;
             position: relative;
             overflow: hidden;
             transition: all 0.4s ease;
@@ -201,15 +201,15 @@
         }
 
         .quiz-card h3 {
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 700;
-            line-height: 1.2;
             margin-bottom: 8px;
             color: #1d1d1f;
+            line-height: 1.2;
         }
 
         .quiz-card .ideal-for {
-            font-size: 16px;
+            font-size: 17px;
             color: #667eea;
             font-weight: 500;
             margin-bottom: 32px;
@@ -489,7 +489,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Proctorio Lockdown Guide</h1>
-            <p>Choose the right level of security for your Canvas quizzes with our comprehensive guide to Proctorio settings&mdash;tailored to OHS instructors.</p>
+            <p>Choose the right level of security for your Canvas quizzes with our comprehensive guide to Proctorio settings.</p>
             <a href="#scenarios" class="cta-button">Explore Scenarios</a>
         </div>
     </section>
