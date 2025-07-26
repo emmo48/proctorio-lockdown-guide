@@ -164,15 +164,15 @@
         /* Quiz Cards */
         .quiz-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 40px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
             margin-bottom: 80px;
         }
 
         .quiz-card {
             background: #fbfbfd;
             border-radius: 24px;
-            padding: 48px 32px;
+            padding: 48px 28px;
             position: relative;
             overflow: hidden;
             transition: all 0.4s ease;
@@ -201,15 +201,15 @@
         }
 
         .quiz-card h3 {
-            font-size: 22px;
+            font-size: 24px;
             font-weight: 700;
+            line-height: 1.2;
             margin-bottom: 8px;
             color: #1d1d1f;
-            line-height: 1.2;
         }
 
         .quiz-card .ideal-for {
-            font-size: 17px;
+            font-size: 16px;
             color: #667eea;
             font-weight: 500;
             margin-bottom: 32px;
@@ -489,7 +489,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Proctorio Lockdown Guide</h1>
-            <p>Choose the right level of security for your Canvas quizzes with our comprehensive guide to Proctorio settings.</p>
+            <p>Choose the right level of security for your Canvas quizzes with our comprehensive guide to Proctorio settings&mdash;tailored to OHS instructors.</p>
             <a href="#scenarios" class="cta-button">Explore Scenarios</a>
         </div>
     </section>
@@ -503,7 +503,7 @@
             </div>
 
             <div class="quiz-grid">
-                <!-- Not Messing Around Quiz -->
+                <!-- Strict Quiz -->
                 <div class="quiz-card fade-in">
                     <h3>The "Strict" Quiz</h3>
                     <p class="ideal-for">Ideal for: "High-stakes" assessments or those too difficult to make "uncheatable."</p>
@@ -592,7 +592,7 @@
                     </div>
                 </div>
 
-                <!-- Make Good Choices Quiz -->
+                <!-- Flexible Quiz -->
                 <div class="quiz-card fade-in">
                     <h3>The "Flexible" Quiz</h3>
                     <p class="ideal-for">Ideal for: Assessments asking students to use specific resources outside of the quiz.</p>
@@ -654,7 +654,7 @@
                     </div>
                 </div>
 
-                <!-- Uncheatable Quiz -->
+                <!-- Open Quiz -->
                 <div class="quiz-card fade-in">
                     <h3>The "Open" Quiz</h3>
                     <p class="ideal-for">Ideal for: All assessments, when possible. OHS may require using Proctorio for "high-stakes" assessments.</p>
